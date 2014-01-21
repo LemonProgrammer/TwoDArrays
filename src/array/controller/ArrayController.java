@@ -76,6 +76,7 @@ public class ArrayController
 				for(int col = 0; col < numberOfBooks[0].length; col++)
 				{
 					numberOfBooks [row][col] = 4;
+//					System.out.println(numberOfBooks[row][col]);
 				}
 			}
 			
@@ -102,6 +103,14 @@ public class ArrayController
 			Monkies [3][1] = new String("Monkey Chairman");
 			Monkies [3][2] = new String("CEO monkey");
 			Monkies [3][3] = new String("Robot Monkey");
+//			for (int row = 0; row < Monkies.length; row++)
+			{
+//				for(int col = 0; col < Monkies[0].length; col++)
+				{
+//				System.out.println(Monkies[row][col]);
+				}
+			}
+			
 		}
 		
 		public String[][] fillTheFruitBasket()
@@ -112,6 +121,7 @@ public class ArrayController
 				for(int col = 0; col < Fruits[0].length; col++)
 				{
 					Fruits[row][col] = "Bananna";
+					System.out.println(Fruits[row][col]);
 				}
 			}
 			
